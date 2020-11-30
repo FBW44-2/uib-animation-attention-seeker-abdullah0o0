@@ -1,0 +1,68 @@
+.card  {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(231, 94, 220, 0.911);
+    padding: 15px;
+    border-radius: 30px;
+    color: white;
+    font-size: 1.6rem;
+}
+.card-content{
+    font-weight: 700;
+    margin-left: 5px;
+}
+.card-image{
+    background-image: url(/images/smartphone.svg);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+         /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+         animation: Vibrating-effect 3s ease-in-out infinite;
+         transform-origin: center;
+}
+@keyframes Vibrating-effect{
+    5% {
+        transform: scale(1.4);
+      }
+      6% {
+       transform: skewX(6deg);
+      }
+     7% {
+       transform: skewX(-6deg);
+     }
+     8% {
+       transform: skewX(6deg);
+     }
+     9% {
+       transform: skewX(-6deg);
+     }
+     10% {
+       transform: skewX(6deg);
+     }
+     11% {
+       transform: skewX(-6deg);
+     }
+     20% {
+       transform: skewX(6deg);
+     }
+     21% {
+       transform: skewX(-6deg);
+     }
+     22% {
+       transform: skewX(6deg);
+     }
+     23% {
+       transform: skewX(-6deg);
+     }
+     24% {
+       transform: skewX(6deg);
+     }
+     25% {
+       transform: skewX(-6deg);
+     }
+     30% {
+       transform: skew(0) scale(1);
+     }
+    
+}
